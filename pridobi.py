@@ -37,8 +37,6 @@ def preuzimanje_statistics_strani(companies_basic_data):
 
         time.sleep(0.5)
 
-
-
 def preuzimanje_history_strani(companies_basic_data):
 
     def prvi_datum(driver):

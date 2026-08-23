@@ -197,7 +197,6 @@ def izlusci_vse_history(companies_basic_data):
                 for i in range(1,len(cells)):
                     cells[i] = clean_value(cells[i].text.strip())
 
-
                 history_data = {
                     "ticker": ticker,
                     "date": date,
