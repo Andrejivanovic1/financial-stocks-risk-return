@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+selenium_test.py
+selenijum_test/
+htmlji/
