@@ -2,6 +2,13 @@ import pridobi
 import izlusci
 import shrani
 import sys
+import os
+
+def zacni_foldere():
+    os.makedirs("htmlji", exist_ok=True)
+    os.makedirs("htmlji/statistics", exist_ok=True)
+    os.makedirs("htmlji/history", exist_ok=True)
+
 
 
 pridobi_podatke = len(sys.argv) == 2 and sys.argv[1] == "pridobi"
@@ -11,6 +18,7 @@ if (len(sys.argv) > 2) or (len(sys.argv) == 2 and sys.argv[1] != "pridobi"):
     sys.exit(1)
 
 if pridobi_podatke:
+    zacni_foldere()
     pridobi.preuzimanje_glavne_stran()
 
 companies_basic_data = izlusci.izlusci_companies_basic_data()
