@@ -81,6 +81,8 @@ Umetno inteligenco sem pri projektu uporabil na nekaj mestih kot pomoč pri razv
 Uporabil sem jo za:
 
 1. Funkcijo `preuzimanje_history_strani()`. Prvotno različico funkcije sem napisal sam, vendar ni delovala dovolj zanesljivo. Večkrat sem jo poskušal popraviti, nato pa sem za pomoč prosil umetno inteligenco. Moja prvotna različica kode je še vedno na voljo v datoteki `selenium_test.py`.
+Moja prvotna različica je na voljo tukaj:
+[`selenium_test.py`](https://github.com/Andrejivanovic1/financial-stocks-risk-return/blob/selenium-test/selenium_test.py).
 
 2. Slovar `important_statistics` v datoteki `izlusci.py`. Sam sem izbral podatke, ki sem jih želel vključiti v analizo, umetni inteligenci pa sem naročil, naj iz njih sestavi slovar in določi ustrezna skrajšana imena (ker jih je bilo okoli 20).
 
@@ -89,3 +91,5 @@ Uporabil sem jo za:
 4. Kodo za grafični prikaz korelacijske matrike z uporabo barv.
 
 5. Delno urejanje in izboljšanje besedila v Jupyter Notebooku.
+
+ 
